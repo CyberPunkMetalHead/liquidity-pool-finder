@@ -1,5 +1,4 @@
-﻿import type { Checks } from '$lib/Types/Checks';
-import type { Filter } from '$lib/Types/Filter';
+﻿import type { Filter } from '$lib/Types/Filter';
 import type { PoolData } from '$lib/Types/PoolData';
 import { buildQueryString } from '$lib/Utils/QueryParser';
 

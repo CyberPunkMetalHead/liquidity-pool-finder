@@ -30,7 +30,6 @@ export const load: PageServerLoad = async (request) => {
 		checks: searchParams.get('checks') ?? undefined
 	};
 	try {
-		// console.log(filters)
 		const response = await cg.getFilteredPools(filters);
 
 		if (!response || response.length === 0) {

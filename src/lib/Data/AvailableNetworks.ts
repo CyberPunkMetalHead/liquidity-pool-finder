@@ -1,9 +1,5 @@
-﻿type Network = {
-	name: string;
-	value: string;
-};
-
-export const networks: Network[] = [
+﻿import type { Sorter } from '$lib/Types/Sorters';
+export const networks: Sorter = [
 	{ name: 'Ethereum', value: 'eth' },
 	{ name: 'BNB Chain', value: 'bsc' },
 	{ name: 'Polygon POS', value: 'polygon_pos' },
