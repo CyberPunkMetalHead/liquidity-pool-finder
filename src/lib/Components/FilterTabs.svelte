@@ -1,14 +1,5 @@
 ﻿<script lang="ts">
-	import {
-		Tabs,
-		TabItem,
-		MultiSelect,
-		Label,
-		ButtonGroup,
-		Button,
-		Range,
-		NumberInput
-	} from 'flowbite-svelte';
+	import { Tabs, TabItem, MultiSelect, Label, ButtonGroup, Range } from 'flowbite-svelte';
 	import { networks } from '$lib/Data/AvailableNetworks.js';
 	import FilterButton from '$lib/Components/FilterButton.svelte';
 	import SorterButtonGroup from '$lib/Components/SorterButtonGroup.svelte';

@@ -3,9 +3,9 @@
 
 	interface Props {
 		primaryNumber: number | null;
-		primaryNumberType?: 'absolute' | 'relative' | 'raw'; // 'raw' added
+		primaryNumberType?: 'absolute' | 'relative' | 'raw';
 		secondaryNumber?: number | null;
-		secondaryNumberType?: 'absolute' | 'relative' | 'raw'; // 'raw' added
+		secondaryNumberType?: 'absolute' | 'relative' | 'raw';
 		noSecondary?: boolean;
 		layout?: 'brackets' | 'pipe';
 		manualColor?: 'blue' | 'green' | 'red' | 'yellow' | 'dark';
